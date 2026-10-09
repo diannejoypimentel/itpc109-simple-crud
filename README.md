@@ -28,3 +28,9 @@ http://localhost:8081
 ```
 docker compose down
 ```
+## Testing
+   - Create: added a new student and confirmed it appeared in the list
+   - Read: refreshed the page and confirmed the record remained
+   - Update: edited the student's course and confirmed the change
+   - Delete: deleted the test student and confirmed it was removed
+   - Validation: submitted a blank field and confirmed the server rejected it
